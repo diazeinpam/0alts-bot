@@ -1,0 +1,19 @@
+{
+  "name": "bot-personalizable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "clear": "node clear-commands.js",
+    "verify": "node verify.js",
+    "verify:remote": "node verify.js --remote"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
